@@ -1,0 +1,93 @@
+body{
+    background: seagreen;
+}
+.cronometro{
+    background: black;
+    width: 520px;
+    height: 400px;
+    margin: auto;
+    padding: 30px !important;
+    border-radius: 100px;
+   
+
+}
+
+.segundos{
+ 
+    width: 250px;
+    height: 120px;
+    margin: auto;
+    border-radius: 11px;
+    background: grey;
+    margin-top: 20px;
+  
+   
+}
+.segundos1{
+    width: 250px;
+    height: 120px;
+    margin: auto;
+    border-radius: 11px;
+    background: whitesmoke;
+    margin-top: 20px;
+    text-align: center;
+
+   
+}
+.conteo{
+    width: 400px;
+    height: 150px;
+    padding: 15px;
+    
+    margin: 20px;
+}
+
+
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.on{
+    width: 75px;
+    height: 55px;
+    border-radius: 60px;
+    margin-left: 15px;
+    float: left;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.off{
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    float: right;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.inicio{
+    width: 100px;
+    height: 80px;
+    padding: 20px;
+    margin: auto;
+}
+.numero{
+    font-size: 20px;
+    font-weight: bold;
+      
+}
+.nu{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    margin: 30px;
+    float: right !important;
+    text-align: center;
+}
+
+
+
