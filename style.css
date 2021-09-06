@@ -8,7 +8,7 @@ body{
     margin: auto;
     padding: 30px !important;
     border-radius: 100px;
-   border: 10px solid rgb(56, 56, 56); 
+    border: 10px solid rgb(56, 56, 56); 
    
 
 }
@@ -19,7 +19,7 @@ body{
     height: 120px;
     margin: auto;
     border-radius: 11px;
-    background: grey;
+    background: rgb(100, 100, 100);
     margin-top: 20px;
   
    
@@ -138,8 +138,8 @@ body{
 .nu{
     font-size: 55px;
     font-weight: bold;
-    font-family: cursive;
-    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
     margin: 30px;
     float: right !important;
     text-align: center;
