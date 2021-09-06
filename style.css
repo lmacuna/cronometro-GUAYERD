@@ -8,7 +8,7 @@ body{
     margin: auto;
     padding: 30px !important;
     border-radius: 100px;
-  border: 10px solid bisque; 
+   border: 10px solid rgb(56, 56, 56); 
    
 
 }
@@ -60,6 +60,32 @@ body{
     font-weight: bold;
     background: limegreen;
     color: white;
+    
+}
+.on:hover{
+    width: 75px;
+    height: 55px;
+    border-radius: 60px;
+    margin-left: 15px;
+    float: left;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    background: grey;
+    color: rgb(77, 77, 77);
+}
+.on:active{
+    width: 75px;
+    height: 55px;
+    border-radius: 60px;
+    margin-left: 15px;
+    float: left;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    background: whitesmoke;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
 }
 .off{
     width: 55px;
@@ -72,6 +98,31 @@ body{
     margin-right: 15px;
     background: crimson;
     color: white;
+}
+.off:hover{
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    float: right;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 15px;
+    background: grey;
+    color: rgb(77, 77, 77);
+}
+.off:active{
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    float: right;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 15px;
+    background: whitesmoke;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
 }
 .inicio{
     width: 100px;
@@ -100,8 +151,31 @@ body{
     color: white;
     border-radius: 60px;
 }
+.restablecer:hover{
+    width: 55px;
+    height: 55px;
+    background: grey;
+    color: rgb(77, 77, 77);
+    border-radius: 60px;
+}
+.restablecer:active{
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    background: whitesmoke;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
 .apagar{
     background: darkblue !important;
+}
+.apagar:hover{
+    background: grey !important;
+}
+.apagar:active{
+    background: whitesmoke !important;
+    color: whitesmoke !important;
+    text-shadow: 1px 1px 1px black !important;
 }
 
 
